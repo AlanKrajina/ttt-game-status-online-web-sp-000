@@ -22,7 +22,10 @@ def won?(board)
   
   
   
-end  
+end
+
+
+
 =begin  
   WIN_COMBINATIONS.each do |comb|
     comb.each do |win_comb|
