@@ -24,21 +24,3 @@ def won?(board)
 end  
 end
 
-
-
-=begin  
-  WIN_COMBINATIONS.each do |comb|
-    comb.each do |win_comb|
-      
-      win_comb.map
-      
-      if position_taken?(board, index)
-      
-    end
-  end  
-    
-    
-    
-   else
-     false 
-=end
