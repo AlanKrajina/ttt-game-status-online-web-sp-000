@@ -27,6 +27,6 @@ def won?(board)
 end
 
 def full?(boards)
-  boards.none {|i| }
+  boards.none {|i| i}
   end
 
