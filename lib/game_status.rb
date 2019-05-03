@@ -17,15 +17,12 @@ WIN_COMBINATIONS = [
 
 
 def won?(board)
-  
   WIN_COMBINATIONS.detect do |combination|
     win1=combination[0]
     win2=combination[1]
     win3=combination[2]
     
     board[win1] == board[win2] && board[win2] == board[win3] && board[win1] != " "
-
-    
-end  
+  end  
 end
 
