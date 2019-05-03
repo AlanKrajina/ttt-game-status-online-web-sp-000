@@ -51,5 +51,5 @@ def over?(board)
 end
 
 def winner(board)
-  
+  win_combination=won?(board)
 end
