@@ -18,6 +18,12 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   
+  
+  
+  
+  
+end  
+=begin  
   WIN_COMBINATIONS.each do |comb|
     comb.each do |win_comb|
       
@@ -32,4 +38,4 @@ def won?(board)
     
    else
      false 
-  end
+=end
