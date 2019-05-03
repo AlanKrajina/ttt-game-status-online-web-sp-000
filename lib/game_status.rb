@@ -23,6 +23,9 @@ def won?(board)
     win2=combination[1]
     win3=combination[2]
     
+    if board[win1] == board[win2] && board[win2] == board[win3] 
+
+    
 end  
 end
 
